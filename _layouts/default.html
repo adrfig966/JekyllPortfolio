@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>{{site.name}}</title>
+  <meta name="description" content="la galeria de Adrian Figueroa">
+  <meta name="author" content="Adrian F">
+  <meta name="viewport" content="width=device-width, initial-   scale=1.0">   
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display|Open+Sans+Condensed:300" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/37d45f49a6.js"></script>
+  
+  <style>
+    .header-image{
+      height: 300px;
+      background: url({{page.header-image}}) no-repeat center;
+    }
+  </style>
+  {% unless page.header-image %}
+  {% endunless %}
+
+</head>
+
+<body class='cool-grey'>
+  <div class='bars' id='bar1'></div>
+  <div class='bars' id='bar2'></div>
+  {% include menubtn.html %}
+  <div class='banner'> <h1>{{site.bannertext}}</h1></div>
+  {% include navbar.html %}
+  <header>
+    <div class='header-title'> {{page.title}} </div><div class='header-image'></div>
+  </header>
+  <div class='content-container'>
+    
+    {{content}}
+  </div>
+  {%include footer.html%}
+</body>
+</html>

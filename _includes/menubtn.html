@@ -1,0 +1,14 @@
+<div class='menu-button'>
+    {{site.btntext}}
+    <div class='slide-container'>
+      <ul class='menu-items'>
+        {% for pg in site.pages %}
+          {% if pg.title == page.title %}
+              <li class='slide-item active'><a href={{pg.url}}>{{pg.title}}</a></li>
+          {% else %}
+              <li class='slide-item'><a href={{pg.url}}>{{pg.title}}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>

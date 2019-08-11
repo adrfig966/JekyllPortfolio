@@ -1,0 +1,11 @@
+- display: Contact
+  link: https://www.google.com/
+  icon: <i class="fas fa-address-card"></i>
+
+- display: Resume
+  link: https://www.google.com/
+  icon: <i class="fas fa-file-pdf"></i>
+
+- display: LinkedIn
+  link: https://www.google.com/
+  icon: <i class="fab fa-linkedin"></i>
