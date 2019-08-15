@@ -24,7 +24,6 @@ body{
   header{
     width: 100%;
     text-align: center;
-    
   }
   header > div{
     line-height: 300px;
@@ -46,6 +45,7 @@ body{
   }
   .footer-right{
     font-size: 18px;
+    padding: 10px;
   }
   .bars{
     position: absolute;
@@ -93,14 +93,22 @@ body{
   .content-container{
     background-color: #e3f2fd;
     color: black;   
-    padding: 10px;
+    padding: 10px 10%;
     font-family: 'Open Sans Condensed';   
     font-size: 20px;
+    overflow: hidden;
   }
-  .nav-bar{
+  article{
+    font-size: 30px;
     text-align: center;
-    font-family: 'Open Sans Condensed';
   }
+  .showoff-image{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 60%;
+  }
+
   .slide-container{
     width: 20%;
     position: fixed;
@@ -111,6 +119,8 @@ body{
     transform: translatex(-105%);
   }
   .nav-bar{
+    text-align: center;
+    font-family: 'Open Sans Condensed';
     padding: 50px 0;
     color: black;
     background-color: white;
@@ -175,6 +185,7 @@ body{
     header > div{
       display: block;
       width: 100%;
+      font-size: 25px;
     }
     .nav-bar{
       display: none;
@@ -185,4 +196,12 @@ body{
     .slide-container{
       width: 35%;
     }
+    .showoff-image{
+      width: 100%;
+    }
+    article{
+      font-size: 20px;
+    }
   }
+
+  

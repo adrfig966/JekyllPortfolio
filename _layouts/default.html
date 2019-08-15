@@ -1,25 +1,37 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
   <title>{{site.name}}</title>
-  <meta name="description" content="la galeria de Adrian Figueroa">
-  <meta name="author" content="Adrian F">
-  <meta name="viewport" content="width=device-width, initial-   scale=1.0">   
+  <meta name="description" content="A site where I can share my creations and a little about my self">
+  <meta name="author" content="Adrian Figueroa">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">   
   <link rel="stylesheet" href={{"/assets/css/styles.css" | relative_url}}>
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display|Open+Sans+Condensed:300" rel="stylesheet">
   <script src="https://kit.fontawesome.com/37d45f49a6.js"></script>
-  
-  <style>
-    .header-image{
-      height: 300px;
-      background: url({{page.header-image}}) no-repeat center;
-    }
-  </style>
-  {% unless page.header-image %}
-  {% endunless %}
+
+  {% if page.header-image %}
+    <style>
+      .header-image{
+        height: 300px;
+        background: url({{page.header-image}}) no-repeat center;
+        background-size: 100% auto;
+        visibility: visible;
+      }
+    </style>
+  {% else %}
+    <style>
+      .header-image{
+        visibility: hidden;
+      }
+      header > div{
+        width: 100%;
+        background-color:black;
+        color: white;
+      }
+    </style>
+  {% endif %}
+
 
 </head>
 
@@ -30,10 +42,10 @@
   <div class='banner'> <h1>{{site.bannertext}}</h1></div>
   {% include navbar.html %}
   <header>
-    <div class='header-title'> {{page.title}} </div><div class='header-image'></div>
+    <div class='header-title'> {{page.header-text}} </div><!--
+    -->{% if page.header-image %}<div class='header-image' bgimg=''></div>{% endif %}
   </header>
   <div class='content-container'>
-    
     {{content}}
   </div>
   {%include footer.html%}
