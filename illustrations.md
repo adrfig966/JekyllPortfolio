@@ -17,16 +17,16 @@ Below is a collection of various works I've done using Adobe Illustrator. I'm ma
 </article>
 
 <article>
-    <img class='showoff-image' src='https://res.cloudinary.com/dwdubcw9r/image/upload/v1565567198/CactusLogo_wwqwyh.svg'/>
+    <img class='showoff-image sizefix' src='https://res.cloudinary.com/dwdubcw9r/image/upload/v1565567198/CactusLogo_wwqwyh.svg'/>
     <p>First of a series I'm doing relating to deserts. Naturally, my first idea was cacti.</p>
 </article>
 
 <article>
-    <img class='showoff-image' src='https://res.cloudinary.com/dwdubcw9r/image/upload/v1565567198/DesertRoad_gsma4b.svg'/>
+    <img class='showoff-image sizefix' src='https://res.cloudinary.com/dwdubcw9r/image/upload/v1565567198/DesertRoad_gsma4b.svg'/>
     <p>My second idea was inspired by the nice drives you can take on empty stretches of road. This one might change however as I feel it's too empty and some of the colors aren't where I want them.</p>
 </article>
 
 <article>
-    <img class='showoff-image' src='https://res.cloudinary.com/dwdubcw9r/image/upload/v1565564145/BigHorn_hgbuyr.svg'/>
-    <p>This one I feel like I did for the sake of learning something. I wanted to figure out how to get the horns to have a natural looking spiral without manually making several small paths.</p>
+    <img class='showoff-image sizefix' src='https://res.cloudinary.com/dwdubcw9r/image/upload/v1565564145/BigHorn_hgbuyr.svg'/>
+    <p>This one I did for the sake of learning something. I wanted to figure out how to get the horns to have a natural looking spiral without manually making several small paths.</p>
 </article>
