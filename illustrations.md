@@ -1,7 +1,7 @@
 ---
-title: Graphic Design
+title: Illustrator
 layout: default
-header-text: Original vector art by me
+header-text: Vector art samples
 ---
 
 Below is a collection of various works I've done using Adobe Illustrator. I'm mainly interested in creating stuff for web, icons, logos, and typography. I've included small descriptions about where the idea came from and if there's any changes to be made.

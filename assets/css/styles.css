@@ -1,6 +1,7 @@
 body{
     padding: 0 0;
     margin: 0 0;
+    font-family: 'Open Sans Condensed';
   }
   a{
     text-decoration: none;
@@ -64,19 +65,18 @@ body{
   }
   .menu-button{
     visibility: hidden;
-    width: auto;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: black;
-    border: 2px solid white;
-    color: white;
-    width: 64px;
+    background-color: #CBC5EA;
+    color: black;
+    width: 100%;
     height: 64px;
     line-height: 64px;
     text-align: center;
-    font-family: 'Playfair Display';
-
+  }
+  .menu-button:hover{
+    background-color: #A7A2C0;
   }
   .banner{
     display: inline-block;
@@ -113,13 +113,13 @@ body{
   }
 
   .slide-container{
-    width: 20%;
     position: fixed;
     top: 68px;
     left: 0;
     color: black;
-    transition: transform 1s;
-    transform: translatex(-105%);
+    transition: transform 0.3s;
+    transform: scaleY(0);
+    transform-origin: center top;
   }
   .nav-bar{
     text-align: center;
@@ -158,7 +158,7 @@ body{
     pointer-events: none;
   }
   .menu-button:hover .slide-container{
-    transform: translatex(0%);
+    transform: scaleY(1);
   }
   .menu-items{    
     list-style: none;
@@ -167,7 +167,6 @@ body{
   }
   .slide-item{
     background-color: white;
-    border: 2px solid black;
     margin-bottom: 2px;
     transition: background-color 0.3s;
   }
@@ -176,7 +175,7 @@ body{
     color: white;
   }
   .slide-item:hover, .slide-item.active{
-    background-color: black;
+    background-color: #E2DFF3;
     color: white;
   }
   .menu-image{
@@ -197,7 +196,7 @@ body{
       visibility: visible;
     }
     .slide-container{
-      width: 35%;
+      width: 100%;
     }
     .showoff-image{
       width: 100%;

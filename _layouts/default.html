@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{site.name}}</title>
+  <title>{{site.name}} // {{page.title}}</title>
   <meta name="description" content="A site where I can share my creations and a little about my self">
   <meta name="author" content="Adrian Figueroa">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">   
   <link rel="stylesheet" href={{"/assets/css/styles.css" | relative_url}}>
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display|Open+Sans+Condensed:300" rel="stylesheet">
   <script src="https://kit.fontawesome.com/37d45f49a6.js"></script>
+  <script src={{"/assets/scripts/prefixfree.min.js" | relative_url}}></script>
 
   {% if page.header-image %}
     <style>
