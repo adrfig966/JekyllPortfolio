@@ -83,8 +83,9 @@ body{
     vertical-align: top;
     width: calc(100% - 20px);
     height: 250px;
-    text-align: center;
     line-height: 250px;
+    font-size: 30px;
+    text-align: center;
     color: #e3f2fd;
     font-family: 'Merriweather';
     padding: 0 10px;

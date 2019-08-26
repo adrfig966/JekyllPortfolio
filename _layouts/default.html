@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">   
   <link rel="stylesheet" href={{"/assets/css/styles.css" | relative_url}}>
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display|Open+Sans+Condensed:300" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/37d45f49a6.js"></script>
   <script src={{"/assets/scripts/prefixfree.min.js" | relative_url}}></script>
+  <script src={{"/assets/scripts/37d45f49a6.js" | relative_url}}></script>
 
   {% if page.header-image %}
     <style>
@@ -40,7 +40,7 @@
   <div class='bars' id='bar1'></div>
   <div class='bars' id='bar2'></div>
   {% include menubtn.html %}
-  <div class='banner'> <h1>{{site.bannertext}}</h1></div>
+  <div class='banner'>{{site.bannertext}}</div>
   {% include navbar.html %}
   <header>
     <div class='header-title'> {{page.header-text}} </div><!--
