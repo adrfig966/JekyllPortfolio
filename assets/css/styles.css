@@ -87,13 +87,19 @@ body{
     width: 100%;
     text-align: center;
   }
+  .project-title{
+    text-align: center;
+    background-color: #657994;
+    color: white;
+    padding: 10px 0;
+  }
   .project-description{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 10px;
   }
   .content-container > h1 {
-    font-family: 'Playfair Display';
+    font-family: 'Cutive Mono';
     text-align: center;
   }
   .content-container li {

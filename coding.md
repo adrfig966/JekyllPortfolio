@@ -13,7 +13,7 @@ header-text: Programming related items
 
 # Projects
 
-### React-based Crytpo Charts
+<h3 class="project-title">React-based Crpyto Charts</h3>
 
 <a href="http://charts.afigueroa.xyz" target="_blank">Available here</a>
 
@@ -38,7 +38,7 @@ header-text: Programming related items
 
 </div>
 
-### React-based S-K-A-T-E Game Tracking
+<h3 class="project-title">React-based S-K-A-T-E Game Tracking</h3>
 
 <a href="http://skate.afigueroa.xyz" target="_blank">Available here</a>
 <img class="screenshot-image" height="200px" src="https://res.cloudinary.com/dwdubcw9r/image/upload/v1566846216/SKATEScreen_xucgha.png">
@@ -70,7 +70,7 @@ header-text: Programming related items
 <div>
     <ul>
         <li>Built with Jekyll</li>
-        <li>Regular HTML, CSS, and JS because GH pages doesn't support plugins.</li>
-        <li>I'll likely move it to my VPS where my projects are hosted for more customizability.</li>
+        <li>Regular HTML, CSS, and JS since GH pages doesn't support plugins well.</li>
+        <li>I'll likely move it to my VPS where my projects are hosted, for more customizability, once I figure out an easy way to commit changes.</li>
     </ul>
 </div>
