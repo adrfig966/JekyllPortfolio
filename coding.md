@@ -14,11 +14,11 @@ header-text: Code-related works
 # Projects
 ### (Click on images to view full size)
 
-<div class="project-title noselect" data-tab-target="tab4">
+<div class="project-title noselect">
     <div class="tab-button-icon">+</div>This site
 </div>
 
-<div class="tab-container" id="tab4" data-tab-group=1>
+<div class="tab-container" id="tab4">
     <div>
         <ul>
             <li>Built with Jekyll, a static-site generator built on Ruby</li>
