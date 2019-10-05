@@ -11,8 +11,9 @@ This site is my personal page/online portfolio. A place where I can share some o
 
 # Who I am
 
-I am a programmer and artist based out of the Coachella Valley, a region in Southern California. I have a formal education in Computer Science (BS). However, of the many things this field encompasses, web development is naturally the most appealing. I have yet to work a professional position in web development but I do spend quit a bit of time working on small projects (like this site) to keep my skills up. As of recent, I have been reading about JAM stack sites. Building this site was my introduction and it seems appealing as opposed to using WordPress, for smaller sites of course. In regards to art, I've been a traditional artist most of my life. The mediums I use the most are ink, pencil, and acrylic. I am also an experienced penman and have been into lettering since a young age. I'd like to put up pictures of these works sometime soon but I have to think of a layout that will fit good with how inconsistent the photos are. I've put up my Illustrator work however, something which I've been spending a lot of time with lately. I enjoy coming up with fictitious logos and such. If you're interested in not having my logos be fictitious, or you want to give me a job, please keep reading.
+I am a programmer and artist based out of the Coachella Valley, an area of Southern California. I have experience in general purpose languages, such as C++ and Python. However, my focus resides mainly in web development. The **Code** page has some examples of projects I've made. I've mainly worked using React as a front-end and NodeJS as a server. 
 
+Besides programming, I also enjoy making traditional art and doing graphic design using Adobe Illustrator. You can find some examples of my work on the page labeled **Illustrator**. I will likely make a separate site for traditional art in the future.
 # Contact/Work
 
-I am currently looking for a full time position. I am also available for freelance web/logo work. Use the link below to send me a message and we'll be on our way!
+I am currently looking for a full time position. I am also available for freelance web/logo work. If you are interested, use the information below to send me a message and we'll be on our way!

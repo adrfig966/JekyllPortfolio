@@ -1,3 +1,12 @@
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
 body{
     padding: 0 0;
     margin: 0 0;
@@ -18,8 +27,10 @@ body{
   footer{
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    width: calc(100% - 20px);
+    font-family: 'Open Sans Condensed';
+    padding: 25px 10px;
   }
   header{
     width: 100%;
@@ -35,17 +46,15 @@ body{
     vertical-align: bottom;
     display: inline-block;
   }
-  footer > div{
-    font-family: 'Open Sans Condensed';
-    padding: 20px 0;
-  }
   .footer-left{
-    font-size: 20px;
-    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .footer-left a{
+    color: white;
   }
   .footer-right{
     font-size: 18px;
-    padding: 10px;
   }
   .menu-button{
     visibility: hidden;
@@ -78,9 +87,10 @@ body{
   .content-container{
     background-color: #e3f2fd;
     color: black;   
-    padding: 30px 10%;
+    padding: 30px 5%;
     font-family: 'Open Sans Condensed';   
     font-size: 20px;
+    font-weight: 500;
     overflow: hidden;
   }
   .proflinks{
@@ -92,18 +102,35 @@ body{
     background-color: #657994;
     color: white;
     padding: 10px 0;
+    transition: background-color 0.3s;
+    margin-bottom: 2px;
+  }
+  .project-title:hover{
+    background-color: #8191A7;
+  }
+  .project-title .tab-button-icon{
+    float: left;
+    margin-left: 5%;
+    font-size: 25px;
+  }
+  .tab-container{
+    padding: 15px 0;
   }
   .project-description{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 10px;
+    column-gap: 15px;
   }
-  .content-container > h1 {
+  .content-container > h1, .content-container > h3 {
     font-family: 'Cutive Mono';
     text-align: center;
   }
   .content-container li {
     list-style-type: square;
+  }
+  .project-description a{
+    text-decoration: underline;
   }
   article{
     font-size: 25px;
@@ -112,22 +139,16 @@ body{
   .illustration-image{
     display: block;
     margin: 0 auto;
-    height: auto;
-    width: 60%;
-  }
-  .sizefix{
-    width: 40%;
-  }
-  .screenshot-image{
-    display: block;
-    margin: auto;
+    max-width: 100%;
+    max-height: 300px;
   }
   .mockup-container{
-    margin: auto;
     text-align: center;
   }
   .mockup-image{
     display: inline-block;
+    max-height: 450px;
+    max-width: 100%;
   }
   .slide-container{
     position: fixed;
@@ -215,18 +236,8 @@ body{
     .slide-container{
       width: 100%;
     }
-    .illustration-image{
-      width: 100%;
-    }
-    .sizefix{
-      width: 60%;
-    }
     article{
       font-size: 20px;
-    }
-    .screenshot-image{
-      width: 100%;
-      height: auto;
     }
     .project-description{
       grid-template-columns: 1fr;
