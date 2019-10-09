@@ -122,6 +122,10 @@ body{
     margin-top: 10px;
     column-gap: 15px;
   }
+  .project-link{
+    text-align: center;
+    margin-bottom: 10px; 
+  }
   .content-container > h1, .content-container > h3 {
     font-family: 'Cutive Mono';
     text-align: center;

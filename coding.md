@@ -19,7 +19,8 @@ header-text: Code-related works
 </div>
 
 <div class="tab-container tab-open" id="tab1">
-    <h3 style="text-align:center;">Note: This project is not done yet, I will add a link when live. For live projects see sections after this one. </h3>
+    <div class="project-link"><a href="http://167.71.121.250:3000/" target="_blank">Available here</a></div>
+    <h3 style="text-align:center;">Note - 10/8: This project is in progress. I will upload to GitHub after commenting/tidying code.</h3>
     <div class="mockup-container">
         <img class="mockup-image" src="https://res.cloudinary.com/dwdubcw9r/image/upload/v1570240153/BoardMobile1_p37occ.png">
         <figcaption>Browser screenshots below</figcaption>
@@ -27,7 +28,8 @@ header-text: Code-related works
     <div class="project-description" style="padding-bottom: 10px;">
         <div>
             <h3>Technical Details</h3>
-            <ul>
+            <ul>   
+                <li>Scheduled scripts using Cron to <b>reset</b> DB and images every 2 hours (for demoing)</li>
                 <li>Back-end server is built on NodeJS using the Express framework</li>
                 <li>MongoDB provides a database</li>
                 <li>Mongoose is used as an ODM library for Mongo</li>
@@ -48,17 +50,17 @@ header-text: Code-related works
         </div>
         <div>
             <h3>About</h3>
-            This project came about when I was looking in to make a CRUD application that allowed file upload. I considered a few options, such as an Instagram or Twitter clone. Ultimately, I landed on the idea of a messageboard that works like traditional <a href="www.google.com">textboards</a>. These work in a way that saves space in that they delete old/less popular posts when a new post is created. This is appealing to me because I will be running the server on my 5$ VPS soon and using the disk storage to save user images.
+            This project came about when I was looking in to make a CRUD application that allowed file upload. I considered a few options, such as an Instagram or Twitter clone. Ultimately, I landed on the idea of a messageboard that works like traditional <a href="www.google.com">textboards</a>. These work in a way that saves space in that they delete old/less popular posts when a new post is created. This is appealing to me because I am running the client on my 5$ VPS soon and using the disk storage to save user images.
             <br><br>
             I first began looking into how to achieve file uploads in Node and quickly found Multer. It was straight forward, so it was an easy choice. The next tool I needed was a templating engine. I found that I really enjoyed the the features of this sites templating engine so I wanted something similar. One thing I did not anticipate was the ridiculous amount of templating engines for Express. It took a good amount of time before I found Nunjucks, an engine very similar to Liquid. MongoDB and Mongoose were an obvious choice as I had already used them in the past. I chose to use Bootstrap to build a front end quicker and focus more on other features. The challenging aspects were mostly found in the deletion of posts in a priority-queue-like manner and removing of the image corresponding to said post.
-            <h3>Features left to finish</h3>
+            <h3>Features left to finish/planned</h3>
             <ul>
                 <li>A homepage</li>
-                <li>Post excerpt (currently shows entire post in post listing)</li>
                 <li>More styling</li>
-                <li>Custom file input UI</li>
-                <li>Demo script to set database contents on a schedule</li>
+                <li>Add active page to navs (currently static)</li>
+                <li>Custom file input element</li>
                 <li>A separate front end after initial version is completed</li>
+                <li>Admin section after initial version is completed</li>
             </ul>
         </div>
     </div>
@@ -79,7 +81,7 @@ header-text: Code-related works
 </div>
 
 <div class="tab-container">
-    <a href="http://charts.afigueroa.xyz" target="_blank">Available here</a>
+    <div class="project-link"><a href="http://charts.afigueroa.xyz" target="_blank">Available here</a></div>
     <div class="mockup-container">
         <img class="mockup-image" src="https://res.cloudinary.com/dwdubcw9r/image/upload/v1570240156/Mockup2_cjxh3t.png">
         <img class="mockup-image" src="https://res.cloudinary.com/dwdubcw9r/image/upload/v1570240155/Mockup1_zbzrz7.png">
@@ -114,7 +116,7 @@ header-text: Code-related works
 </div>
 
 <div class="tab-container" id="tab3">
-    <a href="http://skate.afigueroa.xyz" target="_blank">Available here</a>
+    <div class="project-link"><a href="http://skate.afigueroa.xyz" target="_blank">Available here</a></div>
     <div class="mockup-container">
         <img class="mockup-image" src="https://res.cloudinary.com/dwdubcw9r/image/upload/v1570240157/Mockup3_yyiege.png">
     </div>

@@ -1,6 +1,5 @@
 $(document).ready(() => {
   $(`.tab-container`).not(".tab-container.tab-open").hide();
-
   $(".project-title").each(function() {
     var display = $(this).next();
     var icon = $(this).children(".tab-button-icon");
