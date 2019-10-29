@@ -12,7 +12,7 @@ header-text: Code-related works
 </div>
 
 # Projects
-### (Click on images to view full size)
+### (Click on images to view full size, see GitHub for code)
 
 <div class="project-title noselect">
     <div class="tab-button-icon">-</div>I'mBoard (Message board system)
@@ -20,7 +20,6 @@ header-text: Code-related works
 
 <div class="tab-container tab-open" id="tab1">
     <div class="project-link"><a href="http://167.71.121.250:3000/" target="_blank">Available here</a></div>
-    <h3 style="text-align:center;">Note - 10/8: This project is in progress. I will upload to GitHub after commenting/tidying code.</h3>
     <div class="mockup-container">
         <img class="mockup-image" src="https://res.cloudinary.com/dwdubcw9r/image/upload/v1570240153/BoardMobile1_p37occ.png">
         <figcaption>Browser screenshots below</figcaption>
@@ -55,9 +54,7 @@ header-text: Code-related works
             I first began looking into how to achieve file uploads in Node and quickly found Multer. It was straight forward, so it was an easy choice. The next tool I needed was a templating engine. I found that I really enjoyed the the features of this sites templating engine so I wanted something similar. One thing I did not anticipate was the ridiculous amount of templating engines for Express. It took a good amount of time before I found Nunjucks, an engine very similar to Liquid. MongoDB and Mongoose were an obvious choice as I had already used them in the past. I chose to use Bootstrap to build a front end quicker and focus more on other features. The challenging aspects were mostly found in the deletion of posts in a priority-queue-like manner and removing of the image corresponding to said post.
             <h3>Features left to finish/planned</h3>
             <ul>
-                <li>A homepage</li>
-                <li>More styling</li>
-                <li>Add active page to navs (currently static)</li>
+                <li>Stylized homepage</li>
                 <li>Custom file input element</li>
                 <li>A separate front end after initial version is completed</li>
                 <li>Admin section after initial version is completed</li>
@@ -125,16 +122,17 @@ header-text: Code-related works
             <h3>Features</h3>
             <ul>
                 <li>Plain React, only core modules used</li>
-                <li>Supports up to 10 players, manages turns</li>
+                <li>Supports up to 10 players</li>
                 <li>Automatically adjusts turns as players are removed</li>
+                <li>Ability to choose, or randomize, first player</li>
+                <li>Post-game screen with option to edit players or start new game</li>
+                <li>Undo feature for moves</li>
                 <li>Uses Parcel to bundle assets</li>
             </ul>
             <h3>Future plans</h3>
             <ul>
-                <li>Ability to choose who goes first or randomize</li>
-                <li>Ability to continue game with same players after gameover</li>
                 <li>Track a session of game stats using WebStorage</li>
-                <li>Input validation (yikes)</li>
+                <li>More styling for certain UI elements</li>
             </ul>
         </div>
         <div>
